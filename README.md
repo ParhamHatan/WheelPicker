@@ -89,7 +89,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'TargetName' do
-  pod 'WheelPicker', '~> 1.0'
+  pod 'WheelPicker', :git => 'https://github.com/ParhamHatan/WheelPicker.git'
 end
 ```
 
